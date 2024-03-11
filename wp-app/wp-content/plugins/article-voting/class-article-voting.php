@@ -66,7 +66,7 @@ class Article_Voting {
 				$positive_percentage = ( $total_votes > 0 ) ? round( ( $positive_count / $total_votes ) * 100 ) : 0;
 				$negative_percentage = ( $total_votes > 0 ) ? round( ( $negative_count / $total_votes ) * 100 ) : 0;
 
-				$content .= '<p>THANK YOU FOR YOUR FEEDBACK!</p>';
+				$content .= '<p>THANK YOU FOR YOUR FEEDBACK.</p>';
 				if ( 'positive' === $vote ) {
 					$content .= '<div class="vote-result active">';
 				} else {
@@ -144,7 +144,7 @@ class Article_Voting {
 			$positive_percentage = round( ( $positive_count / $total_votes ) * 100 );
 			$negative_percentage = round( ( $negative_count / $total_votes ) * 100 );
 
-			$content = '<p>THANK YOU FOR YOUR FEEDBACK!</p>';
+			$content = '<p>THANK YOU FOR YOUR FEEDBACK.</p>';
 			if ( 'positive' === $vote ) {
 				$content .= '<div class="vote-result active">';
 			} else {
